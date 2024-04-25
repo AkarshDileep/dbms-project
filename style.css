@@ -709,15 +709,13 @@ background: url(OneTwoBucklPhoto.png), #1B1E1F;
 border-radius: 30px;
 }
 .roboticss1{
-    height: 41px;
-    left: 857px;
-    top: 59px;
+    top: 4.097vw;
     
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
-    line-height: 30px;
+   font-size: 1.73vw;
+    line-height: 1.388vw;
     /* or 120% */
     
     display: flex;
