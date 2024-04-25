@@ -127,11 +127,9 @@ color: #FFFFFF;
 
 }
 .button{
-    position: absolute;
-width: 126px;
-height: 39px;
-left: 1270px;
-top: 52px;
+    
+
+border: white ;
 
 background: #D9D9D9;
 border-radius: 35px;
@@ -686,9 +684,9 @@ border-radius: 30px;
     height: 135px;
 }
 .box2{
-    position: absolute;
-width: 730px;
-height: 730px;
+
+
+
 left: 39px;
 top: 32px;
 
@@ -697,7 +695,7 @@ border-radius: 50px;
 
 }
 .machines{
-    position: absolute;
+    
 width: 100%;
 height: 794px;
 left: 0px;
@@ -705,18 +703,12 @@ top: 2718px;
 
 }
 .box2_1{
-    position: absolute;
-width: 493px;
+    
 height: 493px;
-left: 118px;
-top: 118px;
-
 background: url(OneTwoBucklPhoto.png), #1B1E1F;
 border-radius: 30px;
 }
 .roboticss1{
-    position: absolute;
-    width: 300px;
     height: 41px;
     left: 857px;
     top: 59px;
@@ -740,7 +732,7 @@ border-radius: 30px;
     
 }
 .industryy1{
-    position: absolute;
+    
 width: 550px;
 height: 123px;
 left: 857px;
@@ -761,7 +753,7 @@ color: #C2C4C7;
 
 }
 .buck6_1{
-    position: absolute;
+    
 width: 91px;
 height: 91px;
 left: 857px;
@@ -771,7 +763,7 @@ background: url('Oh-the-fun-we-ll-have-unscreen (1).png');
 border-radius: 50px;
 }
 .buck7_1{
-    position: absolute;
+
 width: 91px;
 height: 91px;
 left: 997px;
@@ -781,7 +773,7 @@ background: url(tumblr_nk1gpzvt1U1u7o3wio1_540.png);
 border-radius: 50px;
 }
 .ourdesign___1{
-    position: absolute;
+    
 width: 550px;
 height: 190px;
 left: 857px;
@@ -798,7 +790,7 @@ line-height: 30px;
 color: #C2C4C7;
 }
 .button3{
-    position: absolute;
+    
 width: 147px;
 height: 42px;
 left: 857px;
@@ -809,7 +801,7 @@ border-radius: 35px;
 
 }
 .button_text{
-    position: absolute;
+    
 width: 112px;
 height: 26px;
 left: 18px;
@@ -829,7 +821,7 @@ color: #FFFFFF;
 
 }
 .evaluvate{
-    position: absolute;
+
 width: 1368px;
 height: 378px;
 left: 36px;
@@ -837,7 +829,7 @@ top: 3659px;
 
 }
 .testimonials1{
-    position: absolute;
+    
 width: 1368px;
 height: 378px;
 left: 0px;
@@ -847,7 +839,7 @@ background: linear-gradient(90deg, #00D67F 0%, #4FC8FC 100%);
 border-radius: 50px;
 }
 .testimonials{
-position: absolute;
+
 width: 300px;
 height: 67px;
 left: 534px;
@@ -1023,39 +1015,39 @@ scrollbar-width: none;
     display: none;  /* Safari and Chrome */
 }
 .frame_1{
-    position: absolute;
+    
 width: 422px;
 height: 641px;
 left: 0px;
-top: 0px;
+
 }
 .frame_2{
-    position: absolute;
+position: absolute;  
 width: 422px;
 height: 641px;
 left: 473px;
-top: 0px;
+
 }
 .frame_3{
-    position: absolute;
+    
 width: 422px;
 height: 641px;
 left: 946px;
-top: 0px;
+
 }
 .frame_4{
-    position: absolute;
-width: 422px;
+    
+
 height: 641px;
 left: 1419px;
-top: 0px;
+
 }
 .frame_5{
-    position: absolute;
+    
 width: 422px;
 height: 641px;
 left: 1892px;
-top: 0px;
+
 }
 .product{
     position: absolute;
@@ -1333,4 +1325,77 @@ display: flex;
 align-items: center;
 
 color: #FFFFFF;
+}
+.review{
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px#4FC8FC ;
+}
+li + li {
+    margin-top: 50px;
+  }
+.upcoming{
+    padding-top: 10.41vw;
+    
+}
+.navv{
+    height: 10.41vw;
+}
+.swipe{
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 27.77vw;
+}
+.lisst{
+    display: inline-block;
+}
+.swiper{
+    
+    display: inline-block;
+    width: 17.36vw;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 50px;
+    height: 17.36vw;
+    background-color: #1335E9;
+}
+.swiper:hover{
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 20vw;
+    height: 20vw;
+}
+.iimg{
+    width: 100%;
+
+}
+button{
+    background: linear-gradient(45deg, #f82b9f 0%, #2d08e6 65.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form-submit-button {
+	background:  linear-gradient(45deg, #f82b9f 0%, #2d08e6 65.02%);
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+    border-radius: 25px;
+	height: 50px;
+	width: 200px;
+	font: bold15px arial,sans-serif;
+	text-shadow: none;
+    padding: 0px;
+    font-family: Opensaucesans, sans-serif;
+    font-weight: 400;
+}
+.fontee{
+    
+    font-family: mkgt-n9, adobe-notdef;
+    font-weight: 900;
+    font-style: normal;
+
 }
