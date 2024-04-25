@@ -1343,10 +1343,11 @@ li + li {
 .swipe{
     width: 100%;
     overflow-x: scroll;
+    overflow-y: hidden;
     white-space: nowrap;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    height: 27.77vw;
+    height: 30vw;
 }
 .lisst{
     display: inline-block;
@@ -1354,11 +1355,11 @@ li + li {
 .swiper{
     
     display: inline-block;
-    width: 17.36vw;
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-top: 50px;
-    height: 17.36vw;
+    width: 25.36vw;
+    margin-right: 1.73vw;
+    margin-left: 1.73vw;
+    margin-top: 3.4vw;
+    height: 25.36vw;
     background-color: #1335E9;
 }
 .swiper:hover{
@@ -1366,9 +1367,10 @@ li + li {
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 0px;
-    width: 20vw;
-    height: 20vw;
+    width: 30vw;
+    height: 30vw;
 }
+
 .iimg{
     width: 100%;
 
