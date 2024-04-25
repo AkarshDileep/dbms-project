@@ -714,7 +714,7 @@ border-radius: 30px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-   font-size: 1.73vw;
+   font-size: 2.vw;
     line-height: 1.388vw;
     /* or 120% */
     
@@ -1362,12 +1362,12 @@ li + li {
 }
 .swiper:hover{
     display: inline-block;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
+    margin-right: -1.73px;
+    margin-left: -1.73vw;
+    margin-top: -3.4vw;
     width: 30vw;
     height: 30vw;
-}
+}}
 
 .iimg{
     width: 100%;
